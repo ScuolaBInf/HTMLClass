@@ -31,7 +31,7 @@ void HTMLCreate::PrintPage()
 		this -> OpenHTMLFile();
 		fputs("<!DOCTYPE html>\n", fw);
 		fputs("<html>\n", fw);
-		CreateString("\thead>\n", "Inserire titolo? (y/n)\t", false, "<title> ", " </title> \n");
+		CreateString("\t<head>\n", "Inserire titolo? (y/n)\t", false, "<title> ", " </title> \n");
 		fputs("\t</head>\n\n", fw);
 		CreateString("\t<body>\n", "Inserire occhiello? (y/n)\t", true, "<hn> ", " ");
 		fputs("\t</body>\n", fw);

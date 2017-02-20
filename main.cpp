@@ -4,9 +4,10 @@
 
 main() 
 	{
-		HTMLCreate print("HTML2.txt");
+		HTMLCreate print("HTML2.html");
 		print.PrintPage();
 		system("cls");
-		HTMLStamp read("HTML2.txt");
+		HTMLStamp read("HTML2.html");
 		read.ReadPage();
+		system("HTML2.html");
 	}
